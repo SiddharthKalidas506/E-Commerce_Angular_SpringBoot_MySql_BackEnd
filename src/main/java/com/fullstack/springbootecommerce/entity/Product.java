@@ -30,11 +30,11 @@ public class Product {
     private String Description;
     @Column(name="unit_price")
     private BigDecimal unitPrice;
-    @Column(name="imge_url")
+    @Column(name="image_url")
     private String imgeUrl;
     @Column(name="active")
     private Boolean active;
-    @Column(name="unit_in_Stock")
+    @Column(name="unit_in_stock")
     private int unitInStock;
     @Column(name="date_created")
     private Date dateCreated;
