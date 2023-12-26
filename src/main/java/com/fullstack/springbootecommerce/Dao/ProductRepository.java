@@ -15,7 +15,7 @@ http://locahost:4200 == http://locahost:4200
 eg 2 > Different Origin
 http://locahost:4200 != http://locahost:8080
  */
-@CrossOrigin("http://locahost:4200")
 @RepositoryRestResource(collectionResourceRel = "product", path = "products")
+@CrossOrigin("http://localhost:4200")
 public interface ProductRepository  extends JpaRepository<Product, Long> {
 }
