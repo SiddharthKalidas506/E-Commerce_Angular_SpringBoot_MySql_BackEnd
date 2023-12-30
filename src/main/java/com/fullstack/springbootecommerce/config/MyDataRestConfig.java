@@ -44,7 +44,6 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
         exposeIds(config);
 
     }
-
     private void exposeIds(RepositoryRestConfiguration config) {
         // expose entity ids
 
